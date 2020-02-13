@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+footer {
+	background-color: lightgray;
+	text-align: right;
+	padding: 0 15px;
+	margin: 15px 0;
+} 
+
+.site-header {
+	padding: 10px;
+}
+
+body p {
+	padding: 10px;
+
+}
+
+.sec_task {
+	position: relative;
+	width: 300px;
+	margin: 0px auto;
+	height: 300px;
+}
+
+.sec_task__item {
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	border: 70px solid #a5a5a5;
+	margin-left: 40px;
+	margin-top: 50px;
+}
+
+.sec_task__item-point {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background: #fff;
+	left: 120px;
+	top: -20px;
+	transform-origin: 50% 126px;
+}
+
+.point-2 { 
+	transform: rotate(45deg); 
+}
+
+.point-3 { 
+	transform: rotate(90deg); 
+}
+
+.point-4 { 
+	transform: rotate(135deg); 
+}
+
+.point-6 { 
+	transform: rotate(180deg); 
+}
+
+.point-7 { 
+	transform: rotate(225deg); 
+}
+
+.point-9 { 
+	transform: rotate(270deg); 
+}
+
+.point-10 { 
+	transform: rotate(315deg); 
+}

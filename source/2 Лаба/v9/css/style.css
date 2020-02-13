@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+footer {
+	background-color: lightgray;
+	text-align: right;
+	padding: 0 15px;
+	margin: 15px 0;
+} 
+
+.site-header {
+	padding: 10px;
+}
+
+body p {
+	padding: 10px;
+
+}
+
+.sec_task {
+	width: 600px;
+	height: 300px;
+	margin: 0 auto;
+	border: 1px solid #000;
+}
+
+.sec_task__item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.sec_task__cycle {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	background-color: #cc0000;
+}

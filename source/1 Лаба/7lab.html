@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8">
+    <title>WEB</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="site-header">
+        <h1>Статический html-документ</h1>
+      </header>
+
+      <ol type="i" start="100">
+      	<li>HTML</li>
+      	<li>CSS</li>
+      	<li>JavaScript</li>
+      </ol>
+
+		<table border="5px" width="300px" height="300px"> <!-- Используем функцию rowspan & colspan -->
+			<tr>
+				<td></td>
+				<td rowspan="2"></td>
+				<td rowspan="2"></td>
+			</tr>
+
+			<tr>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td colspan="2"></td>
+				<td></td>
+			</tr>
+		</table>
+		<hr/>
+
+		<div>
+			<input type="radio" checked="1"> GET
+		</div>
+
+		<div>
+			<input type="radio"> POST
+		</div>
+
+		<div>
+				<p>Выберите время с 08:00 до 16:00</p>
+				
+				<input type="time" min="08:00" max="16:00" value="12:00">
+				<input type="submit" value="Отправить">
+				<input type="reset" value="Сбросить">
+
+
+		</div>
+
+      <footer class="site-footer">
+        <p>© Евгений Покалюк, 2020</p>
+        <p>Контактов нет, я сам вас найду</p>
+      </footer>
+    </div>
+  </body>
+</html>
