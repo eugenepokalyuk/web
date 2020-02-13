@@ -1,15 +1,21 @@
+html {
+  background-color: #222226;
+}
+
 * {
 	margin: 0;
 	padding: 0;
 }
 
 body {
+	background-color: #333336;
+	color: #fff;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
 footer {
-	background-color: lightgray;
+	background-color: #333336;
 	text-align: right;
 	padding: 0 15px;
 	margin: 15px 0;
@@ -36,6 +42,7 @@ body p {
 	height: 300px;
 	border-radius: 20%;
 	border: 2px solid #000;
+	background-color: #fff;
 }
 
 .sec_task__item-point {

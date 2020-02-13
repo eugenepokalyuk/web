@@ -1,15 +1,21 @@
+html {
+  background-color: #222226;
+}
+
 *:none.sec_task__item__screen {
 	margin: 0;
 	padding: 0;
 }
 
 body {
+	background-color: #333336;
+	color: #fff;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
 footer {
-	background-color: lightgray;
+	background-color: #333336;
 	text-align: right;
 	padding: 0 15px;
 	margin: 15px 0;
@@ -21,7 +27,6 @@ footer {
 
 body p {
 	padding: 10px;
-
 }
 
 .sec_task {
@@ -47,6 +52,7 @@ body p {
 	border-radius: 25px;
 	margin-top: 15px;
 	background-color: #fff;
+	color: #000;
 }
 
 .sec_task__item__screen  {
@@ -71,4 +77,8 @@ body p {
 	background-color: #3f3151;
 	border-radius: 100%;
 	margin: 0 10px;
+}
+
+.sec_task__item__btn:hover {
+	background-color: #3f0151;
 }

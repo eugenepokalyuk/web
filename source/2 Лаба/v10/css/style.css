@@ -1,15 +1,21 @@
+html {
+  background-color: #222226;
+}
+
 * {
 	margin: 0;
 	padding: 0;
 }
 
 body {
+	background-color: #333336;
+	color: #fff;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
 footer {
-	background-color: lightgray;
+	background-color: #333336;
 	text-align: right;
 	padding: 0 15px;
 	margin: 15px 0;
@@ -45,7 +51,7 @@ body p {
 	width: 50px;
 	height: 50px;
 	border-radius: 100%;
-	background: #fff;
+	background: #333336;
 	left: 120px;
 	top: -20px;
 	transform-origin: 50% 126px;
